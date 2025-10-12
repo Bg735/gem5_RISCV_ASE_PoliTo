@@ -6,11 +6,18 @@ Per utilizzare questo container, è necessario avere:
 
 
 
-Per caricare il container, avviare Docker Desktop (assicurarsi che il Docker Engine sia in esecuzione) ed eseguire lo script "*setup.bat*", al termine dell'operazione il container sarà disponibile dalla dashboard di Docker Desktop.
+Per caricare il container:
+
+* **avviare Docker Desktop** (assicurarsi che il Docker Engine sia in esecuzione)
+* eseguire lo script "*setup.bat*"
 
 
 
-Per interagire con il container, eseguire il comando "*docker exec -it gem5\_polito bash*" (per comodità, disponibile anche come script "*launch.bat*").
+Al termine dell'operazione il container sarà disponibile dalla dashboard di Docker Desktop.
+
+
+
+Per interagire con il container, eseguire lo script script "*launch.bat*".
 
 
 
