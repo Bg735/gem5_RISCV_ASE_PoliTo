@@ -9,11 +9,11 @@ Anzitutto, clonare questa repository in una cartella locale (preferibilmente una
 Per caricare il container:
 
 * **avviare Docker Desktop** (assicurarsi che il Docker Engine sia in esecuzione)
-* eseguire lo script "*setup.bat*"
+* eseguire lo script "*setup.bat*". E' normale che il terminale che viene aperto resti fermo per un po' di tempo, dovendo elaborare alcuni GB di informazioni. Al termine dell'operazione, il terminale dovrebbe chiudersi da sé, indicando che è possibile avviare il container con "_launch.bat_".
 
 Al termine dell'operazione il container sarà disponibile dalla dashboard di Docker Desktop.
 
-Per interagire con il container, eseguire lo script script "*launch.bat*".
+Per interagire con il container, eseguire lo script script "*launch.bat*" (assicurandosi sempre di avere Docker Desktop attivo e l'engine in esecuzione).
 
 Per compilare e visualizzare il codice assembly:
 
