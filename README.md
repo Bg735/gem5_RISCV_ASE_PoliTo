@@ -31,3 +31,10 @@ Per evitare spreco di risorse ed energia, si raccomanda di interrompere l'esecuz
 
 Dopo aver avviato il container con launch.bat, al termine dell'utilizzo, prima di chiudere la finestra del terminale, premere la combinazione di tasti Ctrl+D. In questo modo, lo script si occuperà di interrompere automaticamente l'esecuzione del container, evitando che consumi inutilmente risorse dell'host.
 
+Per utilizzare il sistema automatico di build richiesto dal Lab2, seguire i seguenti passaggi:
+- Dalla home del container (o qualsiasi sottocartella della stessa), eseguire il seguente comando: `git clone https://github.com/cad-polito-it/ase_riscv_gem5_sim.git`;
+- Poi, dalla stessa directory, `nano ase_riscv_gem5_sim/setup_default`;
+- Nell'editor, cancellare il codice attuale e incollare quello presente in `setup_default.txt` nella cartella del container (quella contenente questo file README). Salvare i cambiamenti eseguendo in sequenza gli shortcut `Ctrl+O Enter Ctrl+X`.
+
+Ora sarà possibile eseguire lo script ./simulate.sh dalla cartella clonata.
+
